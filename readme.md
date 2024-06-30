@@ -6,7 +6,6 @@
 
 <div align="center"> 
   <img src=".\figure\cover.png" style="width: 50%">
-  <div>xx</div> 
 </div>
 
 
