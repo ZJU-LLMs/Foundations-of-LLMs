@@ -1,6 +1,6 @@
 # 大模型基础
 
-<h5 align="right" style="font-size: larger;"><i>我的语言的界限意味着我的世界的界限。
+<h5 align="center" style="font-size: larger;"><i>我的语言的界限意味着我的世界的界限。
 ——维特根斯坦《逻辑哲学论》</i></h5>
 
 
