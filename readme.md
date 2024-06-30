@@ -2,7 +2,7 @@
 
 毛玉仁 高云君等 著
 
-<img src=".\Foundations-of-LLMs\figure\cover.png" alt="cover" style="zoom:50%;" />
+<img src=".\figure\cover.png" alt="cover" style="zoom:50%;" />
 
 ## 章节内容
 
