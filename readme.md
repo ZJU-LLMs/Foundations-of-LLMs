@@ -4,7 +4,7 @@
 # 大模型基础
 
 
-<!-- <img src=".\figure\cover.png" alt="cover" style="zoom:20%;" /> -->
+<img src=".\figure\cover.png" alt="cover" style="zoom:30%;" />
 
 
 ## 章节内容
