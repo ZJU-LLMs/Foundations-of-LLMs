@@ -4,7 +4,10 @@
 # 大模型基础
 
 
-<img src=".\figure\cover.png" alt="cover" style="zoom:30%;" />
+<div align="center"> 
+  <img src=".\figure\cover.png" style="width: 50%">
+  <div>xx</div> 
+</div>
 
 
 ## 章节内容
