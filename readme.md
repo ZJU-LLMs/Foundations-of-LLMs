@@ -4,7 +4,7 @@
 ——维特根斯坦《逻辑哲学论》</i></h5>
 
 
-<img src=".\figure\cover.png" alt="cover" style="zoom:20%;" />
+% <img src=".\figure\cover.png" alt="cover" style="zoom:20%;" />
 
 ## 章节内容
 
