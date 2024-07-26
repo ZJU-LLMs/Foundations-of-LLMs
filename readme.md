@@ -10,8 +10,6 @@
   <img src="https://img.shields.io/github/forks/ZJU-LLMs/Foundations-of-LLMs?style=social">
   <img src="https://img.shields.io/github/license/ZJU-LLMs/Foundations-of-LLMs">
 </p>
----
-
 本书旨在为对大语言模型感兴趣的读者系统地讲解相关基础知识、介绍前沿技术。作者团队将认真听取开源社区以及广大专家学者的建议，持续进行**月度更新**，致力打造**易读、严谨、有深度**的大模型教材。并且，本书还将针对每章内容配备相关的**Paper List**，以跟踪相关技术的**最新进展**。
 
 本书第一版包括**传统语言模型**、**大语言模型架构演化**、**Prompt工程**、**参数高效微调**、**模型编辑**、**检索增强生成**等六章内容。为增加本书的易读性，每章分别以**一种动物**为背景，对具体技术进行举例说明，故此本书以六种动物作为封面。当前版本所含内容均来源于作者团队对相关方向的探索与理解，如有谬误，恳请大家多提issue，多多赐教。后续，作者团队还将继续探索大模型推理加速、大模型智能体等方向。相关内容也将陆续补充到本书的后续版本中，期待封面上的动物越来越多。
@@ -22,14 +20,14 @@
 
 <table>
     <tr>
-        <th style="text-align:center; width: 20%;">章节</th>
-        <th style="text-align:center; width: 80%;" colspan="3">所含内容</th>
+        <th style="text-align:center; width: 25%;">章节</th>
+        <th style="text-align:center; width: 75%;" colspan="3">所含内容</th>
     </tr>
     <tr>
         <td rowspan="2"><b><a href="https://github.com/ZJU-LLMs/Foundations-of-LLMs/第1章%20语言模型基础">第 1 章：语言模型基础</a></b></td>
-        <td style="width: 26.67%;">1.1 基于统计方法的语言模型</td>
-        <td style="width: 26.67%;">1.2 基于 RNN 的语言模型</td>
-        <td style="width: 26.67%;">1.3 基于 Transformer 的语言模型</td>
+        <td style="width: 25%;">1.1 基于统计方法的语言模型</td>
+        <td style="width: 25%;">1.2 基于 RNN 的语言模型</td>
+        <td style="width: 25%;">1.3 基于 Transformer 的语言模型</td>
     </tr>
     <tr>
         <td>1.4 语言模型的采样方法</td>
@@ -92,6 +90,7 @@
         <td></td>
     </tr>
 </table>
+
 
 
 
