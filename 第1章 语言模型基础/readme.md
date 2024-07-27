@@ -79,7 +79,7 @@
     *Markus Freitag, David Grangier, Isaac Caswell* [[PDF](https://arxiv.org/abs/2004.06063)], 2020
 
 4. **BERTScore: Evaluating Text Generation with BERT.** `ICLR`  
-    * Tianyi Zhang, Varsha Kishore, Felix Wu, Kilian Q. Weinberger, Yoav Artzi.* [[PDF](https://arxiv.org/abs/1904.09675)], 2020
+    *Tianyi Zhang, Varsha Kishore, Felix Wu, Kilian Q. Weinberger, Yoav Artzi.* [[PDF](https://arxiv.org/abs/1904.09675)], 2020
 
 5. **Leveraging Large Language Models for NLG Evaluation: Advances and Challenges.** `arXiv`  
     *Zhen Li, Xiaohan Xu, Tao Shen, Can Xu, Jia-Chen Gu, Yuxuan Lai, Chongyang Tao, Shuai Ma* [[PDF](https://arxiv.org/abs/2401.07103)], 2024
@@ -88,7 +88,8 @@
     *Yang Liu, Dan Iter, Yichong Xu, Shuohang Wang, Ruochen Xu, Chenguang Zhu* [[PDF](https://arxiv.org/abs/2303.16634)], 2023
 
 7. **INSTRUCTSCORE: Towards Explainable Text Generation Evaluation with Automatic Feedback.** `EMNLP`  
-    * Wenda Xu, Danqing Wang, Liangming Pan, Zhenqiao Song, Markus Freitag, William Wang, Lei Li.* [[PDF](https://aclanthology.org/2023.emnlp-main.365/)], 2023
+    *Wenda Xu, Danqing Wang, Liangming Pan, Zhenqiao Song, Markus Freitag, William Wang, Lei Li.* [[PDF](https://aclanthology.org/2023.emnlp-main.365/)], 2023
+
 
 
 
