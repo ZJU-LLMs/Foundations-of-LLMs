@@ -28,8 +28,8 @@
 2. **Asymmetry in Low-Rank Adapters of Foundation Models.** `arXiv`  
      *Zhu J., Greenewald K. H., Nadjahi K., Ocáriz Borde d H. S., Gabrielsson R. B., Choshen L., Ghassemi M., Yurochkin M., Solomon J.* [[PDF](https://arxiv.org/abs/2402.16842)] [[Code](https://github.com/Jiacheng-Zhu-AIML/AsymmetryLoRA)], 2024
 
-3. **The Expressive Power of Low-Rank Adaptation.** `arXiv`       
-     *Zeng Y., Lee K.* [[PDF](https://arxiv.org/abs/2310.17513)] [[Code](https://github.com/UW-Madison-Lee-Lab/Expressive_Power_of_LoRA)], 2023   
+3. **SaLoRA: Structure-aware low-rank adaptation for parameter-efficient fine-tuning.** `Mathematics`  
+    *Hu Y, Xie Y, Wang T, Chen M, Pan Z.* [[PDF](https://www.mdpi.com/2227-7390/11/20/4317)], 2023
 
 ## <img src="../figure/star.svg" width="25" height="25" />实践与应用
 
