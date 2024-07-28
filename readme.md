@@ -58,7 +58,7 @@
         <td></td>
     </tr>
     <tr>
-        <td rowspan="2"><b><a href="https://github.com/ZJU-LLMs/Foundations-of-LLMs/第4章%20参数高效微调">第 4 章：参数高效微调</a></b></td>
+        <td rowspan="2"><b><a href="https://github.com/ZJU-LLMs/Foundations-of-LLMs/tree/main/第4章%20参数高效微调">第 4 章：参数高效微调</a></b></td>
         <td>4.1 参数高效微调简介</td>
         <td>4.2 参数附加方法</td>
         <td>4.3 参数选择方法</td>
