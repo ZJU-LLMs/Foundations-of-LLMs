@@ -63,8 +63,68 @@
 
 
 ## <img src="../figure/star.svg" width="25" height="25" />基于 Decoder-only 架构的大语言模型
-1.  
+1.  **Improving language understanding by generative pre-training.** `Online`  
+    *Alec Radford, Karthik Narasimhan, Tim Salimans, Ilya Sutskever.* [[PDF](https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf)], 2018.
 
+2.  **Language models are unsupervised multitask learners.** `Online`  
+    *Alec Radford, Jeffrey Wu, Rewon Child, David Luan, Dario Amodei, Ilya Sutskever.* [[PDF](https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf)], 2019.
+
+3.  **Language models are few-shot learners.** `NeurIPS`  
+    *Tom Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared D Kaplan, Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell, Sandhini Agarwal, Ariel Herbert-Voss, Gretchen Krueger, Tom Henighan, Rewon Child, Aditya Ramesh, Daniel Ziegler, Jeffrey Wu, Clemens Winter, Chris Hesse, Mark Chen, Eric Sigler, Mateusz Litwin, Scott Gray, Benjamin Chess, Jack Clark, Christopher Berner, Sam McCandlish, Alec Radford, Ilya Sutskever, Dario Amodei.* [[PDF](https://papers.nips.cc/paper_files/paper/2020/file/1457c0d6bfcb4967418bfb8ac142f64a-Paper.pdf)], 2020.
+
+4.  **Evaluating Large Language Models Trained on Code.** `arXiv`  
+    *Mark Chen, Jerry Tworek, Heewoo Jun, Qiming Yuan, Henrique Ponde de Oliveira Pinto, Jared Kaplan, Harri Edwards, Yuri Burda, Nicholas Joseph, Greg Brockman, Alex Ray, Raul Puri, Gretchen Krueger, Michael Petrov, Heidy Khlaaf, Girish Sastry, Pamela Mishkin, Brooke Chan, Scott Gray, Nick Ryder, Mikhail Pavlov, Alethea Power, Lukasz Kaiser, Mohammad Bavarian, Clemens Winter, Philippe Tillet, Felipe Petroski Such, Dave Cummings, Matthias Plappert, Fotios Chantzis, Elizabeth Barnes, Ariel Herbert-Voss, William Hebgen Guss, Alex Nichol, Alex Paino, Nikolas Tezak, Jie Tang, Igor Babuschkin, Suchir Balaji, Shantanu Jain, William Saunders, Christopher Hesse, Andrew N. Carr, Jan Leike, Josh Achiam, Vedant Misra, Evan Morikawa, Alec Radford, Matthew Knight, Miles Brundage, Mira Murati, Katie Mayer, Peter Welinder, Bob McGrew, Dario Amodei, Sam McCandlish, Ilya Sutskever, Wojciech Zaremba.* [[PDF](https://arxiv.org/pdf/2107.03374)], 2021.
+
+5.  **WebGPT: Browser-assisted question-answering with human feedback.** `arXiv`  
+    *Reiichiro Nakano, Jacob Hilton, Suchir Balaji, Jeff Wu, Long Ouyang, Christina Kim, Christopher Hesse, Shantanu Jain, Vineet Kosaraju, William Saunders, Xu Jiang, Karl Cobbe, Tyna Eloundou, Gretchen Krueger, Kevin Button, Matthew Knight, Benjamin Chess, John Schulman.* [[PDF](https://arxiv.org/pdf/2112.09332)], 2021.
+
+6.  **Training language models to follow instructions with human feedback.** `NeurIPS`  
+    *Long Ouyang, Jeff Wu, Xu Jiang, Diogo Almeida, Carroll L. Wainwright, Pamela Mishkin, Chong Zhang, Sandhini Agarwal, Katarina Slama, Alex Ray, John Schulman, Jacob Hilton, Fraser Kelton, Luke Miller, Maddie Simens, Amanda Askell, Peter Welinder, Paul Christiano, Jan Leike, Ryan Lowe.* [[PDF](https://proceedings.neurips.cc/paper_files/paper/2022/file/b1efde53be364a73914f58805a001731-Paper-Conference.pdf)], 2022.
+
+7.  **Introducing chatgpt.** `Online`  
+    *OpenAI.* [[PDF](https://openai.com/blog/chatgpt)], 2023.
+
+8.  **Gpt-4 technical report.** `Online`  
+    *OpenAI.* [[PDF](https://openai.com/index/gpt-4-research)], 2023.
+
+9. **Gpt-4 technical report.** `Online`  
+    *OpenAI.* [[PDF](https://openai.com/index/hello-gpt-4o)], 2024.
+
+10. **Gpt-4 technical report.** `Online`  
+    *OpenAI.* [[PDF](https://openai.com/index/hello-gpt-4o)], 2024.
+
+11.  **LLaMA: Open and Efficient Foundation Language Models.** `arXiv`  
+    *Hugo Touvron, Thibaut Lavril, Gautier Izacard, Xavier Martinet, Marie-Anne Lachaux, Timothée Lacroix, Baptiste Rozière, Naman Goyal, Eric Hambro, Faisal Azhar, Aurelien Rodriguez, Armand Joulin, Edouard Grave, Guillaume Lample.* [[PDF](https://arxiv.org/pdf/2302.13971)][[Code](https://github.com/facebookresearch/llama)], 2023.
+   
+12.  **Llama 2: Open Foundation and Fine-Tuned Chat Models.** `arXiv`  
+    *Hugo Touvron, Louis Martin, Kevin Stone, Peter Albert, Amjad Almahairi, Yasmine Babaei, Nikolay Bashlykov, Soumya Batra, Prajjwal Bhargava, Shruti Bhosale, Dan Bikel, Lukas Blecher, Cristian Canton Ferrer, Moya Chen, Guillem Cucurull, David Esiobu, Jude Fernandes, Jeremy Fu, Wenyin Fu, Brian Fuller, Cynthia Gao, Vedanuj Goswami, Naman Goyal, Anthony Hartshorn, Saghar Hosseini, Rui Hou, Hakan Inan, Marcin Kardas, Viktor Kerkez, Madian Khabsa, Isabel Kloumann, Artem Korenev, Punit Singh Koura, Marie-Anne Lachaux, Thibaut Lavril, Jenya Lee, Diana Liskovich, Yinghai Lu, Yuning Mao, Xavier Martinet, Todor Mihaylov, Pushkar Mishra, Igor Molybog, Yixin Nie, Andrew Poulton, Jeremy Reizenstein, Rashi Rungta, Kalyan Saladi, Alan Schelten, Ruan Silva, Eric Michael Smith, Ranjan Subramanian, Xiaoqing Ellen Tan, Binh Tang, Ross Taylor, Adina Williams, Jian Xiang Kuan, Puxin Xu, Zheng Yan, Iliyan Zarov, Yuchen Zhang, Angela Fan, Melanie Kambadur, Sharan Narang, Aurelien Rodriguez, Robert Stojnic, Sergey Edunov, Thomas Scialom.* [[PDF](https://arxiv.org/pdf/2307.09288)][[Code](https://github.com/facebookresearch/llama/)], 2023.
+
+13.  **Introducing Meta Llama 3: The most capable openly available LLM to date.** `Online`  
+    *Meta AI.* [[PDF](https://ai.meta.com/blog/meta-llama-3/)][[Code](https://github.com/meta-llama/llama3)], 2024.
+
+14.  **Alpaca: A Strong, Replicable Instruction-Following Model.** `Online`  
+    *Rohan Taori, Ishaan Gulrajani, Tianyi Zhang, Yann Dubois, Xuechen Li, Carlos Guestrin, Percy Liang, Tatsunori B. Hashimoto.* [[PDF](https://crfm.stanford.edu/2023/03/13/alpaca.html)][[Code](https://github.com/tatsu-lab/stanford_alpaca)], 2023.
+
+15.  **Vicuna: An Open-Source Chatbot Impressing GPT-4 with 90%\* ChatGPT Quality.** `Online`  
+    *The Vicuna Team.* [[PDF](https://lmsys.org/blog/2023-03-30-vicuna)][[Code](https://github.com/lm-sys/FastChat)], 2023.
+
+16.  **QLoRA: Efficient Finetuning of Quantized LLMs.** `arXiv`  
+    *Tim Dettmers, Artidoro Pagnoni, Ari Holtzman, Luke Zettlemoyer.* [[PDF](https://arxiv.org/pdf/2305.14314)][[Code](https://github.com/artidoro/qlora)], 2023.
+
+17.  **Code Llama: Open Foundation Models for Code.** `arXiv`  
+    *Baptiste Rozière, Jonas Gehring, Fabian Gloeckle, Sten Sootla, Itai Gat, Xiaoqing Ellen Tan, Yossi Adi, Jingyu Liu, Romain Sauvestre, Tal Remez, Jérémy Rapin, Artyom Kozhevnikov, Ivan Evtimov, Joanna Bitton, Manish Bhatt, Cristian Canton Ferrer, Aaron Grattafiori, Wenhan Xiong, Alexandre Défossez, Jade Copet, Faisal Azhar, Hugo Touvron, Louis Martin, Nicolas Usunier, Thomas Scialom, Gabriel Synnaeve.* [[PDF](https://arxiv.org/pdf/2308.12950)][[Code](https://github.com/facebookresearch/codellama)], 2023.
+
+18.  **A Brief Report on LawGPT 1.0: A Virtual Legal Assistant Based on GPT-3.** `arXiv`  
+    *Ha-Thanh Nguyen.* [[PDF](https://arxiv.org/pdf/2302.05729)], 2023.
+
+19.  **Goat: Fine-tuned LLaMA Outperforms GPT-4 on Arithmetic Tasks.** `arXiv`  
+    *Tiedong Liu, Bryan Kian Hsiang Low.* [[PDF](https://arxiv.org/pdf/2305.14201)][[Code](https://github.com/liutiedong/goat)], 2023.
+
+20.  **Visual instruction tuning.** `NeurIPS`  
+    *Haotian Liu, Chunyuan Li, Qingyang Wu, Yong Jae Lee.* [[PDF](https://papers.nips.cc/paper_files/paper/2023/file/6dcf277ea32ce3288914faf369fe6de0-Paper-Conference.pdf)][[Code](https://llava-vl.github.io/)], 2023.
+     
+21.  **MiniGPT-4: Enhancing Vision-Language Understanding with Advanced Large Language Models.** `arXiv`  
+    *Deyao Zhu, Jun Chen, Xiaoqian Shen, Xiang Li, Mohamed Elhoseiny.* [[PDF](https://arxiv.org/pdf/2304.10592)][[Code](https://minigpt-4.github.io/)], 2023.
 
 ## <img src="../figure/star.svg" width="25" height="25" />非 Transformer 架构
 1. **Efficiently modeling long sequences with structured state spaces.** `arXiv`  
