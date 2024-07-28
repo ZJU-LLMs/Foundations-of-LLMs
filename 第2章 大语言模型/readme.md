@@ -22,7 +22,7 @@
 
 
 ## <img src="../figure/star.svg" width="25" height="25" />大语言模型架构概览
-1.  **Attention is all you need.** `NeurIPS`
+1.  **Attention is all you need.** `NeurIPS`  
     *Vaswani, Ashish and Shazeer, Noam and Parmar, Niki and Uszkoreit, Jakob and Jones, Llion and Gomez, Aidan N and Kaiser, Lukasz and Polosukhin, Illia.* [[PDF](https://arxiv.org/pdf/1706.03762)], 2017.
 
 ## <img src="../figure/star.svg" width="25" height="25" />基于 Encoder-only 架构的大语言模型
@@ -43,22 +43,22 @@
 
 
 ## <img src="../figure/star.svg" width="25" height="25" />基于 Encoder-Decoder 架构的大语言模型
-1.  **Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer.** `arXiv`
+1.  **Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer.** `arXiv`  
     *Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael Matena, Yanqi Zhou, Wei Li, Peter J. Liu.* [[PDF](https://arxiv.org/pdf/1910.10683)][[Code](https://github.com/google-research/text-to-text-transfer-transformer)], 2019.
 
-2.  **Multitask Prompted Training Enables Zero-Shot Task Generalization.** `arXiv`
+2.  **Multitask Prompted Training Enables Zero-Shot Task Generalization.** `arXiv`  
     *Victor Sanh, Albert Webson, Colin Raffel, Stephen H. Bach, Lintang Sutawika, Zaid Alyafeai, Antoine Chaffin, Arnaud Stiegler, Teven Le Scao, Arun Raja, Manan Dey, M Saiful Bari, Canwen Xu, Urmish Thakker, Shanya Sharma Sharma, Eliza Szczechla, Taewoon Kim, Gunjan Chhablani, Nihal Nayak, Debajyoti Datta, Jonathan Chang, Mike Tian-Jian Jiang, Han Wang, Matteo Manica, Sheng Shen, Zheng Xin Yong, Harshit Pandey, Rachel Bawden, Thomas Wang, Trishala Neeraj, Jos Rozen, Abheesht Sharma, Andrea Santilli, Thibault Fevry, Jason Alan Fries, Ryan Teehan, Tali Bers, Stella Biderman, Leo Gao, Thomas Wolf, Alexander M. Rush.* [[PDF](https://arxiv.org/pdf/2110.08207)][[Code](https://github.com/bigscience-workshop/promptsource)], 2021.
 
-3.  **mT5: A Massively Multilingual Pre-trained Text-to-Text Transformer.** `NAACL`
+3.  **mT5: A Massively Multilingual Pre-trained Text-to-Text Transformer.** `NAACL`  
     *Linting Xue, Noah Constant, Adam Roberts, Mihir Kale, Rami Al-Rfou, Aditya Siddhant, Aditya Barua, Colin Raffel.* [[PDF](https://aclanthology.org/2021.naacl-main.41.pdf)][[Code](https://goo.gle/mt5-code)], 2021.
 
-4.  **Scaling Instruction-Finetuned Language Models.** `Journal of Machine Learning Research`
+4.  **Scaling Instruction-Finetuned Language Models.** `Journal of Machine Learning Research`  
     *Hyung Won Chung, Le Hou, Shayne Longpre, Barret Zoph, Yi Tay, William Fedus, Yunxuan Li, Xuezhi Wang, Mostafa Dehghani, Siddhartha Brahma, Albert Webson, Shixiang Shane Gu, Zhuyun Dai, Mirac Suzgun, Xinyun Chen, Aakanksha Chowdhery, Alex Castro-Ros, Marie Pellat, Kevin Robinson, Dasha Valter, Sharan Narang, Gaurav Mishra, Adams Yu, Vincent Zhao, Yanping Huang, Andrew Dai, Hongkun Yu, Slav Petrov, Ed H. Chi, Jeff Dean, Jacob Devlin, Adam Roberts, Denny Zhou, Quoc V. Le, Jason Wei.* [[PDF](https://www.jmlr.org/papers/volume25/23-0870/23-0870.pdf)][[Code](https://github.com/google-research/t5x/blob/main/docs/models.md#flan-t5-checkpoints)], 2024.
 
-5.  **Bart: Denoising sequence-to-sequence pre-training for natural language generation, translation, and comprehension.** `ACL`
+5.  **Bart: Denoising sequence-to-sequence pre-training for natural language generation, translation, and comprehension.** `ACL`  
     *Mike Lewis, Yinhan Liu, Naman Goyal, Marjan Ghazvininejad, Abdelrahman Mohamed, Omer Levy, Ves Stoyanov, Luke Zettlemoyer.* [[PDF](https://aclanthology.org/2020.acl-main.703.pdf)][[Code](https://github.com/facebookresearch/fairseq/blob/main/examples/bart)], 2020.
 
-6.  **Multilingual denoising pre-training for neural machine translation.** `Transactions of the Association for Computational Linguistics`
+6.  **Multilingual denoising pre-training for neural machine translation.** `Transactions of the Association for Computational Linguistics`  
     *Yinhan Liu, Jiatao Gu, Naman Goyal, Xian Li, Sergey Edunov, Marjan Ghazvininejad, Mike Lewis, Luke Zettlemoyer.* [[PDF](https://arxiv.org/pdf/2001.08210)][[Code](https://github.com/facebookresearch/fairseq/blob/main/examples/mbart)], 2020.
 
 
