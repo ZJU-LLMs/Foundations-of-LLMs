@@ -13,7 +13,7 @@
 1. **Efficient Large Language Models: A Survey.** `arXiv`  
    *Zhongwei Wan, Xin Wang, Che Liu, Samiul Alam, Yu Zheng, Jiachen Liu, Zhongnan Qu, Shen Yan, Yi Zhu, Quanlu Zhang, Mosharaf Chowdhury, Mi Zhang.* [[PDF](https://arxiv.org/abs/2312.03863)] [[Code](https://github.com/AIoT-MLSys-Lab/Efficient-LLMs-Survey)], 2023.
 
-2. **A Survey for In-context Learning.** `CoRR`  
+2. **A Survey for In-context Learning.** `arXiv`  
    *Qingxiu Dong, Lei Li, Damai Dai, Ce Zheng, Jingyuan Ma, Rui Li, Heming Xia, Jingjing Xu, Zhiyong Wu, Baobao Chang, Xu Sun, Lei Li, Zhifang Sui.* [[PDF](https://arxiv.org/abs/2301.00234)] [[Code](https://github.com/dqxiu/ICL_PaperList)], 2023.
 
 3. **Instruction Tuning for Large Language Models: A Survey.** `arXiv`  
