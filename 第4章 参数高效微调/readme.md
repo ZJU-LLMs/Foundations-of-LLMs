@@ -45,16 +45,19 @@
 3. **Parameter-Efficient Transfer Learning for NLP.** `ICML`  
    *Neil Houlsby, Andrei Giurgiu, Stanislaw Jastrzebski, Bruna Morrone, Quentin de Laroussilhe, Andrea Gesmundo, Mona Attariyan, Sylvain Gelly.* [[PDF](https://arxiv.org/abs/1902.00751)] [[Code](https://github.com/google-research/adapter-bert.git)], 2019.
 
-4. **SparseAdapter: An Easy Approach for Improving the Parameter-Efficiency of Adapters.** `Findings of EMNLP`  
+4. **AdapterFusion: Non-Destructive Task Composition for Transfer Learning** ``
+   *Jonas Pfeiffer, Aishwarya Kamath, Andreas Rücklé, Kyunghyun Cho, Iryna Gurevych.* [[PDF](https://arxiv.org/abs/2005.00247)] [[Code]()], 2020.
+
+5. **SparseAdapter: An Easy Approach for Improving the Parameter-Efficiency of Adapters.** `Findings of EMNLP`  
    *Shwai He, Liang Ding, Daize Dong, Miao Zhang, Dacheng Tao.* [[PDF](https://arxiv.org/abs/2210.04284)] [[Code](https://github.com/Shwai-He/SparseAdapter.git)], 2022.
 
-5. **Counter-Interference Adapter for Multilingual Machine Translation.** `Findings of EMNLP`  
+6. **Counter-Interference Adapter for Multilingual Machine Translation.** `Findings of EMNLP`  
    *Yaoming Zhu, Jiangtao Feng, Chengqi Zhao, Mingxuan Wang, Lei Li.* [[PDF](https://arxiv.org/abs/2104.08154)] [[Code](https://github.com/Yaoming95/CIAT.git)], 2021.
 
-6. **Tuning Language Models by Proxy.** `arXiv`  
+7. **Tuning Language Models by Proxy.** `arXiv`  
    *Alisa Liu, Xiaochuang Han, Yizhong Wang, Yulia Tsvetkov, Yejin Choi, Noah A. Smith.* [[PDF](https://arxiv.org/abs/2401.08565)] [[Code](https://github.com/alisawuffles/proxy-tuning)], 2024.
 
-7. **Training Neural Networks with Fixed Sparse Masks.** `NIPS`  
+8. **Training Neural Networks with Fixed Sparse Masks.** `NIPS`  
     *Yi-Lin Sung, Varun Nair, Colin Raffel* [[PDF](https://arxiv.org/abs/2111.09839)] [[Code](https://github.com/VITA-Group/ToST)], 2021.
 
 ## <img src="../figure/star.svg" width="25" height="25" />参数选择方法
@@ -86,6 +89,9 @@
 9. **The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks.** `ICLR`  
     *Jonathan Frankle and Michael Carbin* [[PDF](https://arxiv.org/abs/1803.03635)], 2019.
 
+10. **Unified Low-Resource Sequence Labeling by Sample-Aware Dynamic Sparse Finetuning** `EMNLP`
+    *Sarkar Snigdha Sarathi Das, Ranran Haoran Zhang, Peng Shi, Wenpeng Yin, Rui Zhang.* [[PDF](https://arxiv.org/abs/2311.03748)] [[Code](https://github.com/psunlpgroup/FISH-DIP.git)], 2023.
+
 ## <img src="../figure/star.svg" width="25" height="25" />低秩适配方法
 
 1. **LoRA: Low-Rank Adaptation of Large Language Models.** `ICLR`  
@@ -97,65 +103,80 @@
 3. **A Note on LoRA.** `arXiv`  
    *Vlad Fomenko, Han Yu, Jongho Lee, Stanley Hsieh, Weizhu Chen.* [[PDF](https://arxiv.org/abs/2404.05086)], 2024.
 
-4. **Parameter-Efficient Model Adaptation for Vision Transformers.** `AAAI`  
+4. **KronA: Parameter Efficient Tuning with Kronecker Adapter** `arXiv`
+   *Ali Edalati, Marzieh Tahaei, Ivan Kobyzev, Vahid Partovi Nia, James J. Clark, Mehdi Rezagholizadeh.* [[PDF](https://arxiv.org/abs/2212.10650)], 2022.
+
+5. **Parameter-Efficient Model Adaptation for Vision Transformers.** `AAAI`  
    *Xuehai He,Chunyuan Li,Pengchuan Zhang,Jianwei Yang,Xin Eric Wang.* [[PDF](https://ojs.aaai.org/index.php/AAAI/article/view/25160/24932)], 2023.
 
-5. **DoRA: Weight-Decomposed Low-Rank Adaptation.** `arXiv`  
+6. **DoRA: Weight-Decomposed Low-Rank Adaptation.** `arXiv`  
    *Shih-Yang Liu, Chien-Yi Wang, Hongxu Yin, Pavlo Molchanov, Yu-Chiang Frank Wang, Kwang-Ting Cheng, Min-Hung Chen.* [[PDF](https://arxiv.org/abs/2402.09353)] [[Code](https://github.com/nbasyl/DoRA.git)], 2024.
 
-6. **S-LoRA: Serving Thousands of Concurrent LoRA Adapters.** `arXiv`  
+7. **LoRA Learns Less and Forgets Less** `arXiv`
+   *Dan Biderman, Jose Gonzalez Ortiz, Jacob Portes, Mansheej Paul, Philip Greengard, Connor Jennings, Daniel King, Sam Havens, Vitaliy Chiley, Jonathan Frankle, Cody Blakeney, John P. Cunningham.* [[PDF](https://arxiv.org/abs/2405.09673)], 2024.
+
+8. **GaLore: Memory-Efficient LLM Training by Gradient Low-Rank Projection** `arXiv`
+   *Jiawei Zhao, Zhenyu Zhang, Beidi Chen, Zhangyang Wang, Anima Anandkumar, Yuandong Tian.* [[PDF](https://arxiv.org/abs/2403.03507)], 2024.
+
+9. **S-LoRA: Serving Thousands of Concurrent LoRA Adapters.** `arXiv`  
    *Ying Sheng, Shiyi Cao, Dacheng Li, Coleman Hooper, Nicholas Lee, Shuo Yang, Christopher Chou, Banghua Zhu, Lianmin Zheng, Kurt Keutzer, Joseph E. Gonzalez, Ion Stoica.* [[PDF](https://arxiv.org/abs/2311.03285)] [[Code](https://github.com/S-LoRA/S-LoRA.git)], 2023.
 
-7. **Sparse Low-rank Adaptation of Pre-trained Language Models.** `EMNLP`  
-   *Ning Ding, Xingtai Lv, Qiaosen Wang, Yulin Chen, Bowen Zhou, Zhiyuan Liu, Maosong Sun.* [[PDF](https://arxiv.org/abs/2311.11696)] [[Code](https://github.com/TsinghuaC3I/SoRA)], 2023.
+10. **Sparse Low-rank Adaptation of Pre-trained Language Models.** `EMNLP`  
+    *Ning Ding, Xingtai Lv, Qiaosen Wang, Yulin Chen, Bowen Zhou, Zhiyuan Liu, Maosong Sun.* [[PDF](https://arxiv.org/abs/2311.11696)] [[Code](https://github.com/TsinghuaC3I/SoRA)], 2023.
 
-8. **DoRA: Enhancing Parameter-Efficient Fine-Tuning with Dynamic Rank Distribution.** `arXiv`  
+11. **DoRA: Enhancing Parameter-Efficient Fine-Tuning with Dynamic Rank Distribution.** `arXiv`  
    *Yulong Mao, Kaiyu Huang, Changhao Guan, Ganglin Bao, Fengran Mo, Jinan Xu* [[PDF](https://arxiv.org/abs/2405.17357)] [[Code](https://github.com/MIkumikumi0116/DoRA)], 2024.
 
-9. **ReLoRA: High-Rank Training Through Low-Rank Updates.** `NIPS Workshop`  
+12. **ReLoRA: High-Rank Training Through Low-Rank Updates.** `NIPS Workshop`  
    *Vladislav Lialin, Namrata Shivagunde, Sherin Muckatira, Anna Rumshisky.* [[PDF](https://arxiv.org/abs/2307.05695)] [[Code](https://github.com/Guitaricet/relora)],2023.
 
-10. **SLTrain: a sparse plus low-rank approach for parameter and memory efficient pretraining.** `arXiv`  
+13. **SLTrain: a sparse plus low-rank approach for parameter and memory efficient pretraining.** `arXiv`  
     *Andi Han, Jiaxiang Li, Wei Huang, Mingyi Hong, Akiko Takeda, Pratik Jawanpuria, Bamdev Mishra.* [[PDF](https://arxiv.org/abs/2406.02214)] [[Code](https://github.com/andyjm3/SLTrain)], 2024.
 
-11. **Pissa: Principal singular values and singular vectors adaptation of large language models.** `arXiv`  
+14. **Pissa: Principal singular values and singular vectors adaptation of large language models.** `arXiv`  
     *Fanxu Meng, Zhaohui Wang, Muhan Zhang* [[PDF](https://arxiv.org/abs/2404.02948)] [[Code](https://github.com/GraphPKU/PiSSA)], 2024.
 
-12. **MiLoRA: Harnessing Minor Singular Components for Parameter-Efficient LLM Finetuning.** `arXiv`  
+15. **MiLoRA: Harnessing Minor Singular Components for Parameter-Efficient LLM Finetuning.** `arXiv`  
     *Hanqing Wang, Zeguan Xiao, Yixia Li, Shuo Wang, Guanhua Chen, Yun Chen.* [[PDF](https://arxiv.org/abs/2406.09044)], 2024.
 
-13. **A Survey on LoRA of Large Language Models.** `arXiv`  
+16. **A Survey on LoRA of Large Language Models.** `arXiv`  
     *Yuren Mao, Yuhang Ge, Yijiang Fan, Wenyi Xu, Yu Mi, Zhonghao Hu, Yunjun Gao.* [[PDF](https://arxiv.org/abs/2407.11046)] [[Code](https://github.com/ZJU-LLMs/Awesome-LoRAs.git)], 2024.
 
-14. **Parameter-efficient fine-tuning of large-scale pre-trained language models.** `Nat. Mac. Intell.`  
+17. **Parameter-efficient fine-tuning of large-scale pre-trained language models.** `Nat. Mac. Intell.`  
     *Ding, Ning, Yujia Qin, Guang Yang, Fuchao Wei, Zonghan Yang, Yusheng Su, Shengding Hu.* [[PDF](https://www.nature.com/articles/s42256-023-00626-4.pdf)], 2023.
 
-15. **LoTR: Low Tensor Rank Weight Adaptation.** `arXiv`  
+18. **LoTR: Low Tensor Rank Weight Adaptation.** `arXiv`  
     *Daniel Bershatsky, Daria Cherniuk, Talgat Daulbaev, Aleksandr Mikhalev, Ivan Oseledets.* [[PDF](https://arxiv.org/abs/2402.01376)], 2024.
 
-16. **MoRA: High-Rank Updating for Parameter-Efficient Fine-Tuning.** `arXiv`  
+19. **MoRA: High-Rank Updating for Parameter-Efficient Fine-Tuning.** `arXiv`  
     *Ting Jiang, Shaohan Huang, Shengyue Luo, Zihan Zhang, Haizhen Huang, Furu Wei, Weiwei Deng, Feng Sun, Qi Zhang, Deqing Wang, Fuzhen Zhuang.* [[PDF](https://arxiv.org/abs/2405.12130)] [[Code](https://github.com/kongds/MoRA)], 2024.
 
-17. **Chain of LoRA: Efficient Fine-tuning of Language Models via Residual Learning.** `arXiv`  
+20. **Chain of LoRA: Efficient Fine-tuning of Language Models via Residual Learning.** `arXiv`  
     *Wenhan Xia, Chengwei Qin, Elad Hazan.* [[PDF](https://arxiv.org/abs/2401.04151)], 2024.
 
-18. **Intrinsic Dimensionality Explains the Effectiveness of Language Model Fine-Tuning.** `ACL/IJCNLP`  
+21. **Intrinsic Dimensionality Explains the Effectiveness of Language Model Fine-Tuning.** `ACL/IJCNLP`  
     *Armen Aghajanyan, Luke Zettlemoyer, Sonal Gupta.* [[PDF](https://arxiv.org/abs/2012.13255)],2021.
 
-19. **Mini-Ensemble Low-Rank Adapters for Parameter-Efficient Fine-Tuning.** `arXiv`  
+22. **Mini-Ensemble Low-Rank Adapters for Parameter-Efficient Fine-Tuning.** `arXiv`  
     *Pengjie Ren, Chengshun Shi, Shiguang Wu, Mengqi Zhang, Zhaochun Ren, Maarten de Rijke, Zhumin Chen, Jiahuan Pei* [[PDF](https://arxiv.org/abs/2402.17263)], 2024.
 
-20. **LISA: Layerwise Importance Sampling for Memory-Efficient Large Language Model Fine-Tuning.** `arXiv`  
+23. **LISA: Layerwise Importance Sampling for Memory-Efficient Large Language Model Fine-Tuning.** `arXiv`  
     *Rui Pan, Xiang Liu, Shizhe Diao, Renjie Pi, Jipeng Zhang, Chi Han, Tong Zhang.* [[PDF](https://arxiv.org/abs/2403.17919)] [[Code](https://github.com/OptimalScale/LMFlow)], 2024.
 
-21. **Chain of LoRA: Efficient Fine-tuning of Language Models via Residual Learning.** `arXiv`  
+24. **Chain of LoRA: Efficient Fine-tuning of Language Models via Residual Learning.** `arXiv`  
     *Wenhan Xia, Chengwei Qin, and Elad Hazan* [[PDF](https://arxiv.org/abs/2401.04151)], 2024.
 
-22. **Adaptive Budget Allocation for Parameter-Efficient Fine-Tuning.** `ICLR`  
+25. **Adaptive Budget Allocation for Parameter-Efficient Fine-Tuning.** `ICLR`  
     *Qingru Zhang, Minshuo Chen, Alexander Bukharin, Nikos Karampatziakis, Pengcheng He, Yu Cheng, Weizhu Chen, Tuo Zhao.* [[PDF](https://arxiv.org/abs/2303.10512)] [[Code](https://github.com/QingruZhang/AdaLoRA.git)], 2023.
 
-23. **LoraHub: Efficient Cross-Task Generalization via Dynamic LoRA Composition.** `CoLM`  
+26. **LoraHub: Efficient Cross-Task Generalization via Dynamic LoRA Composition.** `CoLM`  
     *Chengsong Huang, Qian Liu, Bill Yuchen Lin, Tianyu Pang, Chao Du, Min Lin.* [[PDF](https://arxiv.org/abs/2307.13269)] [[Code](https://github.com/sail-sg/lorahub.git)], 2023.
+
+27. **Dylora: Parameter efficient tuning of pre-trained models using dynamic search-free low-rank adaptation** `EACL`
+    *Mojtaba Valipour, Mehdi Rezagholizadeh, Ivan Kobyzev, Ali Ghodsi.* [[PDF](https://arxiv.org/abs/2210.07558)] [[Code](github.com/huawei-noah/Efficient-NLP/tree/main/DyLoRA)], 2023.
+
+28. **DoRA: Enhancing Parameter-Efficient Fine-Tuning with Dy-namic Rank Distribution** `arXiv` 
+    *Yulong Mao, Kaiyu Huang, Changhao Guan, Ganglin Bao, Fengran Mo, Jinan Xu.* [[PDF](https://arxiv.org/abs/2405.17357)] [[Code](https://github.com/MIkumikumi0116/DoRA.git)],2023.
 
 ## <img src="../figure/star.svg" width="25" height="25" />实践与应用
 
