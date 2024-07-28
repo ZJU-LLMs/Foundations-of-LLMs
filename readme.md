@@ -25,7 +25,7 @@
         <th style="text-align:center; width: 75%;" colspan="3">所含内容</th>
     </tr>
     <tr>
-        <td rowspan="2"><b><a href="https://github.com/ZJU-LLMs/Foundations-of-LLMs/第1章%20语言模型基础">第 1 章：语言模型基础</a></b></td>
+        <td rowspan="2"><b><a href="https://github.com/ZJU-LLMs/Foundations-of-LLMs/tree/main/第1章%20语言模型基础">第 1 章：语言模型基础</a></b></td>
         <td style="width: 25%;">1.1 基于统计方法的语言模型</td>
         <td style="width: 25%;">1.2 基于 RNN 的语言模型</td>
         <td style="width: 25%;">1.3 基于 Transformer 的语言模型</td>
@@ -36,7 +36,7 @@
         <td></td>
     </tr>
     <tr>
-        <td rowspan="2"><b><a href="https://github.com/ZJU-LLMs/Foundations-of-LLMs/第2章%20大语言模型">第 2 章：大语言模型</a></b></td>
+        <td rowspan="2"><b><a href="https://github.com/ZJU-LLMs/Foundations-of-LLMs/tree/main/第2章%20大语言模型">第 2 章：大语言模型</a></b></td>
         <td>2.1 大数据 + 大模型 → 新智能</td>
         <td>2.2 大语言模型架构概览</td>
         <td>2.3 基于 Encoder-only 架构的大语言模型</td>
@@ -47,7 +47,7 @@
         <td>2.6 非 Transformer 架构</td>
     </tr>
     <tr>
-        <td rowspan="2"><b><a href="https://github.com/ZJU-LLMs/Foundations-of-LLMs/第3章%20Prompt%20工程">第 3 章：Prompt 工程</a></b></td>
+        <td rowspan="2"><b><a href="https://github.com/ZJU-LLMs/Foundations-of-LLMs/tree/main/第3章%20Prompt%20工程">第 3 章：Prompt 工程</a></b></td>
         <td>3.1 Prompt 工程简介</td>
         <td>3.2 上下文学习</td>
         <td>3.3 思维链</td>
@@ -69,7 +69,7 @@
         <td></td>
     </tr>
     <tr>
-        <td rowspan="2"><b><a href="https://github.com/ZJU-LLMs/Foundations-of-LLMs/第5章%20模型编辑">第 5 章：模型编辑</a></b></td>
+        <td rowspan="2"><b><a href="https://github.com/ZJU-LLMs/Foundations-of-LLMs/tree/main/第5章%20模型编辑">第 5 章：模型编辑</a></b></td>
         <td>5.1 模型编辑简介</td>
         <td>5.2 模型编辑经典方法</td>
         <td>5.3 附加参数法：T-Patcher</td>
@@ -80,7 +80,7 @@
         <td></td>
     </tr>
     <tr>
-        <td rowspan="2"><b><a href="https://github.com/ZJU-LLMs/Foundations-of-LLMs/第6章%20检索增强生成">第 6 章：检索增强生成</a></b></td>
+        <td rowspan="2"><b><a href="https://github.com/ZJU-LLMs/Foundations-of-LLMs/tree/main/第6章%20检索增强生成">第 6 章：检索增强生成</a></b></td>
         <td>6.1 检索增强生成简介</td>
         <td>6.2 检索增强生成架构</td>
         <td>6.3 知识检索</td>
