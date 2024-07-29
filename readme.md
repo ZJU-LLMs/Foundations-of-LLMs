@@ -8,7 +8,7 @@
 <p align="center">
   <img src="https://img.shields.io/github/stars/ZJU-LLMs/Foundations-of-LLMs?style=social">
   <img src="https://img.shields.io/github/forks/ZJU-LLMs/Foundations-of-LLMs?style=social">
-  <img src="https://img.shields.io/github/license/ZJU-LLMs/Foundations-of-LLMs">
+<!--   <img src="https://img.shields.io/github/license/ZJU-LLMs/Foundations-of-LLMs"> -->
 </p>
 
 本书旨在为对大语言模型感兴趣的读者系统地讲解相关基础知识、介绍前沿技术。作者团队将认真听取开源社区以及广大专家学者的建议，持续进行**月度更新**，致力打造**易读、严谨、有深度**的大模型教材。并且，本书还将针对每章内容配备相关的**Paper List**，以跟踪相关技术的**最新进展**。
