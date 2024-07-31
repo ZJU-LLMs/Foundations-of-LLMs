@@ -6,6 +6,7 @@
 </div>
 
 <p align="center">
+  <img src="https://img.shields.io/badge/version-1.0.0-blue">
   <img src="https://img.shields.io/github/stars/ZJU-LLMs/Foundations-of-LLMs?style=social">
   <img src="https://img.shields.io/github/forks/ZJU-LLMs/Foundations-of-LLMs?style=social">
 <!--   <img src="https://img.shields.io/github/license/ZJU-LLMs/Foundations-of-LLMs"> -->
