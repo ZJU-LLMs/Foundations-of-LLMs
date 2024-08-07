@@ -205,4 +205,4 @@
 
 7. **C3: Zero-shot Text-to-SQL with ChatGPT** `arXiv`
 
-   *Xuemei Dong, John Doe, Jane Smith.* [[PDF](https://arxiv.org/abs/2307.07306)] [[Code](https://github.com/bigbigwatermalon/C3SQL)], 2023.
+   *Xuemei Dong, Chao Zhang, Yuhang Ge, Yuren Mao, Yunjun Gao, Lu Chen, Jinshu Lin, Dongfang Lou.* [[PDF](https://arxiv.org/abs/2307.07306)] [[Code](https://github.com/bigbigwatermalon/C3SQL)], 2023.
