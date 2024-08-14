@@ -15,7 +15,7 @@
 
 本书第一版包括**传统语言模型**、**大语言模型架构演化**、**Prompt工程**、**参数高效微调**、**模型编辑**、**检索增强生成**等六章内容。为增加本书的易读性，每章分别以**一种动物**为背景，对具体技术进行举例说明，故此本书以六种动物作为封面。当前版本所含内容均来源于作者团队对相关方向的探索与理解，如有谬误，恳请大家多提issue，多多赐教。后续，作者团队还将继续探索大模型推理加速、大模型智能体等方向。相关内容也将陆续补充到本书的后续版本中，期待封面上的动物越来越多。
 
-当前完整的本书PDF版本路径为<a href="https://github.com/ZJU-LLMs/Foundations-of-LLMs/tree/main/大模型基础.pdf">大模型基础.pdf</a>。另外，我妈还提供了两个文件夹，<a href="https://github.com/ZJU-LLMs/Foundations-of-LLMs/tree/readme_fix/大语言模型分章节内容">大语言模型分章节内容</a>文件夹中包含了各章节的PDF版本。而<a href="https://github.com/ZJU-LLMs/Foundations-of-LLMs/tree/readme_fix/大语言模型相关论文">大语言模型相关论文</a>文件夹中包含了各章节的相关论文，当前正处于不断更新中。
+当前完整的本书PDF版本路径为<a href="https://github.com/ZJU-LLMs/Foundations-of-LLMs/tree/main/大模型基础.pdf">大模型基础.pdf</a>。另外，我们还提供了两个文件夹，<a href="https://github.com/ZJU-LLMs/Foundations-of-LLMs/tree/readme_fix/大语言模型分章节内容">大语言模型分章节内容</a>文件夹中包含了各章节的PDF版本。而<a href="https://github.com/ZJU-LLMs/Foundations-of-LLMs/tree/readme_fix/大语言模型相关论文">大语言模型相关论文</a>文件夹中包含了各章节的相关论文，当前正处于不断更新中。
 
 其中每个章节的内容目录如下表所示。
 
