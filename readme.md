@@ -39,7 +39,7 @@
         <td></td>
     </tr>
     <tr>
-        <td rowspan="2"><b><a href="https://github.com/ZJU-LLMs/Foundations-of-LLMs/tree/main/大语言模型分章节内容/第2章%20大语言模型.pdf">第 2 章：大语言模型</a></b></td>
+        <td rowspan="2"><b><a href="https://github.com/ZJU-LLMs/Foundations-of-LLMs/tree/main/大语言模型分章节内容/第2章%20大语言模型架构.pdf">第 2 章：大语言模型</a></b></td>
         <td>2.1 大数据 + 大模型 → 新智能</td>
         <td>2.2 大语言模型架构概览</td>
         <td>2.3 基于 Encoder-only 架构的大语言模型</td>
@@ -50,7 +50,7 @@
         <td>2.6 非 Transformer 架构</td>
     </tr>
     <tr>
-        <td rowspan="2"><b><a href="https://github.com/ZJU-LLMs/Foundations-of-LLMs/tree/main/大语言模型分章节内容/第3章%20Prompt工程.pdf">第 3 章：Prompt 工程</a></b></td>
+        <td rowspan="2"><b><a href="https://github.com/ZJU-LLMs/Foundations-of-LLMs/tree/main/大语言模型分章节内容/第3章%20Prompt%20工程.pdf">第 3 章：Prompt 工程</a></b></td>
         <td>3.1 Prompt 工程简介</td>
         <td>3.2 上下文学习</td>
         <td>3.3 思维链</td>
