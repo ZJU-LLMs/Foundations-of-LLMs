@@ -44,6 +44,7 @@ $$
 $$
 \mathcal{L}_{\mathrm{LPO}}=-\log\sigma\left[\beta\log\frac{P(\boldsymbol{y}^{c})}{P_{\mathrm{ref}}(\boldsymbol{y}^{c})}-\beta\log\frac{P(\boldsymbol{y}^{r})}{P_{\mathrm{ref}}(\boldsymbol{y}^{r})}+\beta\log P(\boldsymbol{\tau}^{c})-\beta\log P(\boldsymbol{\tau}^{r})\right]
 $$
+
   其中，$\boldsymbol{y}^c$ 为选中的响应，$\boldsymbol{y}^r$ 为拒绝的响应，$\boldsymbol{\tau}^c$ 为选中的温度，$\boldsymbol{\tau}^r$ 为拒绝的温度
 
 - **温度作为 Token（分离）**：将温度选择视为 token，但仅关注 AdaptiveDecoder 模块的输出，只有温度损失项。
