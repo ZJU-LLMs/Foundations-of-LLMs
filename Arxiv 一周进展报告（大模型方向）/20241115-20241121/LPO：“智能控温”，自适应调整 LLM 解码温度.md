@@ -4,7 +4,7 @@
 
 **单位**：*Meta AI*
 
-![](C:\Users\DELL\Desktop\组会模板\week13\LPO：“智能控温”，自适应调整 LLM 解码温度.assets\1732445635647-db5c8266-c4ff-4cce-8c66-47b1fb898fd1.png)
+![](https://fastly.jsdelivr.net/gh/bucketio/img14@main/2024/11/24/1732445635647-db5c8266-c4ff-4cce-8c66-47b1fb898fd1.png)
 
 
 
@@ -32,7 +32,7 @@ $$
 
 其中，$\boldsymbol{y}^c$ 为选中的响应，$\boldsymbol{y}^r$ 为拒绝的响应，$\boldsymbol{\tau}^c$ 为选中的温度，$\boldsymbol{\tau}^r$ 为拒绝的温度，$P(\cdot)$ 为概率分布，$P_{\text{ref}}(\cdot)$ 为参考模型的概率分布，$\beta$ 为超参数，控制 KL 散度项，$\sigma$ 为 sigmoid 函数。
 
-![](C:\Users\DELL\Desktop\组会模板\week13\LPO：“智能控温”，自适应调整 LLM 解码温度.assets\1732445779634-ee1fb81e-7fff-4fc4-9bd6-e4f64e2e29d3.png)
+![](https://fastly.jsdelivr.net/gh/bucketio/img3@main/2024/11/24/1732445779634-ee1fb81e-7fff-4fc4-9bd6-e4f64e2e29d3.png)
 
 
 ### 2. Latent Preference Optimization (LPO)
@@ -58,26 +58,26 @@ $$
 \mathcal{L}_{\text{LPO}} = -\log \sigma \left[ \beta \sum_t \log \frac{\sum_{\tau} P(y^c_t | \tau) P(\tau)}{\sum_{\tau} P_{\text{ref}}(y^c_t | \tau) P_{\text{ref}}(\tau)} - \beta \sum_t \log \frac{\sum_{\tau} P(y^r_t | \tau) P(\tau)}{\sum_{\tau} P_{\text{ref}}(y^r_t | \tau) P_{\text{ref}}(\tau)} \right]
 $$
 
-![](C:\Users\DELL\Desktop\组会模板\week13\LPO：“智能控温”，自适应调整 LLM 解码温度.assets\1732445831312-209767f6-36a5-46fd-87b1-3657c5a3ff76.png)
+![](https://fastly.jsdelivr.net/gh/bucketio/img4@main/2024/11/24/1732445831312-209767f6-36a5-46fd-87b1-3657c5a3ff76.png)
 
 
 ### 3. 实验
 
 1. **减少 N-gram 重复**：  $AdaptiveDecoder_{tok}$ 能学习选择更高温度避免重复，有效减少 42% 的重复率。
 
-   ![](C:\Users\DELL\Desktop\组会模板\week13\LPO：“智能控温”，自适应调整 LLM 解码温度.assets\1732445868063-e66e61e0-9f39-44be-9803-305ab55ee8a5.png)
+   ![](https://fastly.jsdelivr.net/gh/bucketio/img17@main/2024/11/24/1732445868063-e66e61e0-9f39-44be-9803-305ab55ee8a5.png)
 
 2. **UltraMathStories 任务**：包含数学、创意写作和一般指令等子任务，$AdaptiveDecoder$ 在该任务上**优于实验中所有固定温度解码**，能根据不同子任务选择合适温度，在该任务上 $AdaptiveDecoder_{seq}$ 表现更好。
 
-   ![](C:\Users\DELL\Desktop\组会模板\week13\LPO：“智能控温”，自适应调整 LLM 解码温度.assets\1732445886073-8c8d70c9-6ab4-4f9e-96eb-4c808615cbda.png)
+   ![](https://fastly.jsdelivr.net/gh/bucketio/img6@main/2024/11/24/1732445886073-8c8d70c9-6ab4-4f9e-96eb-4c808615cbda.png)
 
 3. **受限创意写作**：$AdaptiveDecoder_{tok}$ 可**在单个响应的不同 Token 处动态调整温度**，满足约束的同时，提高故事质量。
 
-   ![](C:\Users\DELL\Desktop\组会模板\week13\LPO：“智能控温”，自适应调整 LLM 解码温度.assets\1732445906806-41c2d467-4587-4391-9dc0-bad22a9ef250.png)
+   ![](https://fastly.jsdelivr.net/gh/bucketio/img15@main/2024/11/24/1732445906806-41c2d467-4587-4391-9dc0-bad22a9ef250.png)
 
 4. **多数投票**：$AdaptiveDecoder_{tok}$ 能学习**为推理链的不同部分分配合适温度**，在单响应和多数投票设置中表现更好。
 
-   ![](C:\Users\DELL\Desktop\组会模板\week13\LPO：“智能控温”，自适应调整 LLM 解码温度.assets\1732445929602-c8dae492-71e2-4df3-8e93-363b2d1915b7.png)
+   ![](https://fastly.jsdelivr.net/gh/bucketio/img6@main/2024/11/24/1732445929602-c8dae492-71e2-4df3-8e93-363b2d1915b7.png)
 
 综上所述，Adaptive Decoding 通过**动态调整采样温度，实现了对大型语言模型在不同任务中的细粒度优化**。这种方法提高了模型在各种任务中的表现，为语言模型解码策略的研究提供了新的思路。
 
