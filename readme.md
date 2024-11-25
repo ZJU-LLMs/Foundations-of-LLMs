@@ -110,3 +110,7 @@
 
 
 如果有此书相关的其他问题，请随时联系我们，可发送邮件至：xuwenyi@zju.edu.cn。
+
+<div align="center"> 
+  <img src=".\figure\wechat_QR_code.jpg" style="width: 90%">
+</div>
