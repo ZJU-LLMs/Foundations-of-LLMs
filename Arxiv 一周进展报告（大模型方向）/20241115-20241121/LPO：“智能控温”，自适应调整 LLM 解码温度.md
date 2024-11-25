@@ -30,7 +30,7 @@ $$
 \tau_t\sim\mathrm{AdaptiveDecoder}(h_t)\\y_{t+1}\sim\mathrm{Softmax}(Wh_t/\tau_t)\quad\mathrm{for}\quad T\leq t<T^{\prime}
 $$
 
-其中，$\boldsymbol{y}^c$ 为选中的响应，$\boldsymbol{y}^r$ 为拒绝的响应，$\boldsymbol{\tau}^c$ 为选中的温度，$\boldsymbol{\tau}^r$ 为拒绝的温度，$P(\cdot)$ 为概率分布，$P_{\text{ref}}(\cdot)$ 为参考模型的概率分布，$\beta$ 为超参数，控制 KL 散度项，$\sigma$ 为 sigmoid 函数。
+其中， $\boldsymbol{y}^c$ 为选中的响应， $\boldsymbol{y}^r$ 为拒绝的响应， $\boldsymbol{\tau}^c$ 为选中的温度， $\boldsymbol{\tau}^r$ 为拒绝的温度， $P(\cdot)$ 为概率分布， $P_{\text{ref}}(\cdot)$ 为参考模型的概率分布， $\beta$ 为超参数，控制 KL 散度项， $\sigma$ 为 sigmoid 函数。
 
 ![](https://fastly.jsdelivr.net/gh/bucketio/img3@main/2024/11/24/1732445779634-ee1fb81e-7fff-4fc4-9bd6-e4f64e2e29d3.png)
 
@@ -67,15 +67,15 @@ $$
 
    ![](https://fastly.jsdelivr.net/gh/bucketio/img17@main/2024/11/24/1732445868063-e66e61e0-9f39-44be-9803-305ab55ee8a5.png)
 
-2. **UltraMathStories 任务**：包含数学、创意写作和一般指令等子任务，$AdaptiveDecoder$ 在该任务上**优于实验中所有固定温度解码**，能根据不同子任务选择合适温度，在该任务上 $AdaptiveDecoder_{seq}$ 表现更好。
+2. **UltraMathStories 任务**：包含数学、创意写作和一般指令等子任务， $AdaptiveDecoder$ 在该任务上**优于实验中所有固定温度解码**，能根据不同子任务选择合适温度，在该任务上 $AdaptiveDecoder_{seq}$ 表现更好。
 
    ![](https://fastly.jsdelivr.net/gh/bucketio/img6@main/2024/11/24/1732445886073-8c8d70c9-6ab4-4f9e-96eb-4c808615cbda.png)
 
-3. **受限创意写作**：$AdaptiveDecoder_{tok}$ 可**在单个响应的不同 Token 处动态调整温度**，满足约束的同时，提高故事质量。
+3. **受限创意写作**： $AdaptiveDecoder_{tok}$ 可**在单个响应的不同 Token 处动态调整温度**，满足约束的同时，提高故事质量。
 
    ![](https://fastly.jsdelivr.net/gh/bucketio/img15@main/2024/11/24/1732445906806-41c2d467-4587-4391-9dc0-bad22a9ef250.png)
 
-4. **多数投票**：$AdaptiveDecoder_{tok}$ 能学习**为推理链的不同部分分配合适温度**，在单响应和多数投票设置中表现更好。
+4. **多数投票**： $AdaptiveDecoder_{tok}$ 能学习**为推理链的不同部分分配合适温度**，在单响应和多数投票设置中表现更好。
 
    ![](https://fastly.jsdelivr.net/gh/bucketio/img6@main/2024/11/24/1732445929602-c8dae492-71e2-4df3-8e93-363b2d1915b7.png)
 
