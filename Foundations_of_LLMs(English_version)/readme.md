@@ -1,0 +1,1 @@
+This book is the English version of the chinese book 《大语言模型基础》。Now, It is stiil a draft version, which is directly translated from the chinese version by using GPT.  We will refine the English writting of this book later. It will be coming soon! 
