@@ -10,7 +10,7 @@
 
 研究如何通过区分大语言模型中的推理 Tokens 和样板 Tokens 来提升模型在 agent-task 中的表现。
 
-下图为 agent-task 中一个有关推理 Tokens（绿色）和样板 Tokens（黄色和蓝色）的例子。样板 Tokens 可以进一步分为格式Tokens（黄色）和模板连接Tokens（蓝色）。
+下图为 parser 中一个有关推理 Tokens（绿色）和样板 Tokens（黄色和蓝色）的例子。样板 Tokens 可以进一步分为格式Tokens（黄色）和模板连接Tokens（蓝色）。
 
 ![](https://fastly.jsdelivr.net/gh/bucketio/img0@main/2024/12/21/1734782216786-8a1ec03c-8f3c-47b6-a08b-7679b4516cf1.png)
 
